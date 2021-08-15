@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+// Base 기본 셋팅
+@import "./assets/styles/fonts"; // 순서가 중요해서 폰트부터 넣어준다.
+@import "./assets/styles/base"; // 리셋 대신에 베이스를 많이 쓴다.
+
+// layout
+@import "./assets/styles/layout";
+
+// page
+@import "./assets/styles/pages";
+
+// loading
+@import "./assets/styles/loader";
